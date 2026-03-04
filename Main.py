@@ -13,20 +13,20 @@ def main():
     while True:
         Ini_Aff.afficher_plateau(p)
         
-        coup, memo_global = StratClassique.choisir_coup(p, joueur, profondeur=1)
+        coup, memo_global = StratClassique.choisir_coup(p, joueur, profondeur=1) # Prend le meilleur coups
 
-        if coup is None:
+        if coup is None: # test si coups possibles
             print("Pas de coup pour", joueur)
-            passes += 1
-            if passes == 2:
+            passes += 1 # Si pas de coups, le joueur passe son tour
+            if passes == 2: # Max de 2 passes
                 print("Fin de partie")
                 print("Score :", StratClassique.h(p))
                 break
         else:
             passes = 0
-            Jeu.retournement(p, joueur, coup[0], coup[1])
+            Jeu.retournement(p, joueur, coup[0], coup[1]) # Joue le coup
 
-        joueur = "O" if joueur == "X" else "X"
+        joueur = "O" if joueur == "X" else "X" # Changement de joueurs
         time.sleep(1)
 
 

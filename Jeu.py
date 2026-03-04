@@ -1,5 +1,6 @@
 
 def check_coup(p, joueur, x, y, dx, dy):
+    #Test une direction pour un coup
     if dx == 0 and dy == 0:
         return False
 
@@ -24,20 +25,23 @@ def check_coup(p, joueur, x, y, dx, dy):
 
 
 def coup_jouable(p, x, y, joueur):
+    #test si un coup est jouable en vérifiant si une direction est jouable
     if p[x][y] != "":
         return []
 
-    coups = []
+    jouable = 0
     for dx in [-1, 0, 1]:
         for dy in [-1, 0, 1]:
             if check_coup(p, joueur, x, y, dx, dy):
-                coups.append((x, y))
-                return coups
+                jouable=1
+                return jouable
 
-    return []
+    return jouable
+
 
 
 def retournement(p,joueur,x,y):
+    #Retourne les pions liés au coup joués
     p[x][y]=joueur
     for i in range(-1,2):
         for j in range(-1,2):

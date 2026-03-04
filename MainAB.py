@@ -15,23 +15,23 @@ def main():
         Ini_Aff.afficher_plateau(p)
         
         tic= time.time()
-        coup, memo_global = StratMemoAB.choisir_coup_memo(p, joueur, profondeur=1,memo=memo_global)
+        coup, memo_global = StratMemoAB.choisir_coup_memo(p, joueur, profondeur=1,memo=memo_global) # Joue le meilleur coup
         tac = time.time() - tic
 
         print("Temps de calcul : ", tac," s | taille du cache : ", len(memo_global))
 
-        if coup is None:
+        if coup is None: # Test si coups possibles
             print("Pas de coup pour", joueur)
-            passes += 1
-            if passes == 2:
+            passes += 1 # Si pas de coup, le joueur passe son tour
+            if passes == 2: # limite de 2 passes
                 print("Fin de partie")
                 print("Score :", StratMemoAB.h(p))
                 break
         else:
             passes = 0
-            Jeu.retournement(p, joueur, coup[0], coup[1])
+            Jeu.retournement(p, joueur, coup[0], coup[1]) # Joue le coup
 
-        joueur = "O" if joueur == "X" else "X"
+        joueur = "O" if joueur == "X" else "X" # Changement de joueur
         time.sleep(1)
 
 
