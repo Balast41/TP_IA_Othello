@@ -38,6 +38,14 @@ def coup_jouable(p, x, y, joueur):
 
     return jouable
 
+def liste_coups_jouables(p,joueur):
+    liste=[]
+    for x in range(0,8):
+        for y in range(0,8):
+            if p[x][y]=="" and coup_jouable(p,x,y,joueur):
+                liste.append((x,y))
+    return liste
+
 
 
 def retournement(p,joueur,x,y):
