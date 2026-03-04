@@ -11,7 +11,7 @@ def main():
     passes = 0
 
     while True:
-        Ini_Aff.afficher_plateau(p)
+        Ini_Aff.afficher_plateau_V2(p)
         
         coup, memo_global = StratClassique.choisir_coup(p, joueur, profondeur=1)
 
