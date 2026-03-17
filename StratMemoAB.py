@@ -1,6 +1,9 @@
+import time
+
 import numpy as np
 import Jeu
 import copy
+import Ini_Aff
 
 table_transposition={}
 
@@ -95,3 +98,35 @@ def choisir_coup_memo(p, joueur, profondeur=2,memo=None):
                         meilleur_coup = (x, y)
 
     return meilleur_coup, memo # revoie le coup à jouer et le dictionnaire de mémoisation
+
+
+def partie():
+    p = Ini_Aff.initialisation_plateau()
+    joueur = "X"
+    passes = 0
+    memo_global = {}
+
+    while True:
+        Ini_Aff.afficher_plateau(p)
+        
+        tic= time.time()
+        coup, memo_global = choisir_coup_memo(p, joueur, profondeur=1,memo=memo_global) # Joue le meilleur coup
+        tac = time.time() - tic
+
+        print("Temps de calcul : ", tac," s | taille du cache : ", len(memo_global))
+
+        if coup is None: # Test si coups possibles
+            print("Pas de coup pour", joueur)
+            passes += 1 # Si pas de coup, le joueur passe son tour
+            if passes == 2: # limite de 2 passes
+                print("Fin de partie")
+                print("Score heuristique :", h(p))
+                print("Gagnant :", Jeu.gagnant(p))
+                break
+        else:
+            passes = 0
+            Jeu.retournement(p, joueur, coup[0], coup[1]) # Joue le coup
+
+        joueur = "O" if joueur == "X" else "X" # Changement de joueur
+        time.sleep(1)
+    return 0

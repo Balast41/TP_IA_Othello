@@ -3,7 +3,6 @@ def check_coup(p, joueur, x, y, dx, dy):
     #Test une direction pour un coup
     if dx == 0 and dy == 0:
         return False
-
     adv = "O" if joueur == "X" else "X"
     i, j = x + dx, y + dy
 
@@ -58,3 +57,19 @@ def retournement(p,joueur,x,y):
                 while p[x+k*i][y+k*j]==("X" if joueur=="O" else "O"):
                     p[x+k*i][y+k*j]=joueur
                     k+=1
+
+def gagnant(p):
+    #Retourne le gagnant de la partie
+    score = 0
+    for i in range(8):
+        for j in range(8):
+            if p[i][j]=="X":
+                score+=1
+            elif p[i][j]=="O":
+                score-=1
+    if score > 0:
+        return "X"
+    elif score < 0:
+        return "O"
+    else:
+        return "Egalite"

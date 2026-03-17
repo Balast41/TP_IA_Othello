@@ -1,30 +1,43 @@
 import time
-
+import Ini_Aff
 import numpy as np
 import Jeu
 import copy
 import Jeu
-import Ini_Aff
 
 table_transposition={}
 
-def h(p):
-    coins = [(0,0),(0,7),(7,0),(7,7)]
-    score_mobilite_X=len(Jeu.liste_coups_jouables(p,"X")) # Nombre de coups jouables pour X
-    score_mobilite_O=len(Jeu.liste_coups_jouables(p,"O")) # Nombre de coups jouables pour O
-    score_mobilite= score_mobilite_X - score_mobilite_O
+TableComparaisonA = [
+    [ 500,-150,  30,  10,  10,  30,-150, 500],
+    [-150,-250,   0,   0,   0,   0,-250,-150],
+    [  30,   0,   1,   2,   2,   1,   0,  30],
+    [  10,   0,   2,  16,  16,   2,   0,  10],
+    [  10,   0,   2,  16,  16,   2,   0,  10],
+    [  30,   0,   1,   2,   2,   1,   0,  30],
+    [-150,-250,   0,   0,   0,   0,-250,-150],
+    [ 500,-150,  30,  10,  10,  30,-150, 500]
+    ]
 
-    # Gestion des coins
-    score_coins = 0
-    for x, y in coins:
-        if p[x][y] == "X":
-            score_coins += 25  # Bonus si coin pour X
-        elif p[x][y] == "O":
-            score_coins -= 25  # Malus si coin pour O
-    
-    # Score final = mobilité + valeur des coins
-    score = score_mobilite + score_coins
-    return score
+TableComparaisonB = [
+    [100, -20,  10,   5,   5,  10, -20, 100],
+    [-20, -50,  -2,  -2,  -2,  -2, -50, -20],
+    [ 10,  -2,  -1,  -1,  -1,  -1,  -2,  10],
+    [  5,  -2,  -1,  -1,  -1,  -1,  -2,  -5],
+    [  5,  -2,  -1,  -1,  -1,  -1,  -2,  -5],
+    [ 10,  -2,  -1,  -1,  -1,  -1,  -2,  10],
+    [-20, -50,  -2,  -2,  -2,  -2, -50, -20],
+    [100, -20,  10,   5,   5,  10, -20, 100]
+    ]
+
+def h(p):
+   score=0
+   for x in range(8):
+        for y in range(8):
+            if p[x][y]=="X":
+                score+=TableComparaisonA[x][y] # Ajout du score de la case pour X
+            elif p[x][y]=="O":
+                score-=TableComparaisonA[x][y] # Soustraction du score de la case pour O
+   return score
 
 def plateau_to_cle(p):
     return tuple(tuple(row) for row in p)
@@ -135,3 +148,8 @@ def partie():
         joueur = "O" if joueur == "X" else "X" # Changement de joueur
         time.sleep(1)
     return 0
+
+
+
+
+
