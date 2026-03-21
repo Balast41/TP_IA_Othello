@@ -11,7 +11,7 @@ import StratMemoAB
 import AIvsAI
 
 def main():
-    AIvsAI.partie("mixte","random",profondeur1=3,profondeur2=1)
+    AIvsAI.partie("montecarlo","mixte",profondeur1=1,profondeur2=6,simu=100) # Lancement de la partie entre une IA mixte et une IA random
 
 
 

@@ -25,21 +25,20 @@ def partie():
     p = Ini_Aff.initialisation_plateau()
     joueur = "X"
     passes = 0
-    memo_global = {}
 
     while True:
         Ini_Aff.afficher_plateau(p)
         avancee = avancee_partie(p)
         tic= time.time()
         if avancee > 40:
-            coup, memo_global = StratPoids.choisir_coup_memo(p, joueur, profondeur=1,memo=memo_global) # Joue le meilleur coup
+            coup = StratPoids.choisir_coup_memo(p, joueur, profondeur=1) # Joue le meilleur coup
         elif avancee > 20 and avancee <= 40:
-            coup, memo_global = StratMobilite.choisir_coup_memo(p, joueur, profondeur=1,memo=memo_global) # Joue le meilleur coup
+            coup = StratMobilite.choisir_coup_memo(p, joueur, profondeur=1) # Joue le meilleur coup
         else:
-            coup, memo_global = StratMemoAB.choisir_coup_memo(p, joueur, profondeur=1,memo=memo_global) # Joue le meilleur coup
+            coup = StratMemoAB.choisir_coup_memo(p, joueur, profondeur=1) # Joue le meilleur coup
         tac = time.time() - tic
 
-        print("Temps de calcul : ", tac," s | taille du cache : ", len(memo_global))
+        print("Temps de calcul : ", tac," s")
         if coup is None: # Test si coups possibles
             print("Pas de coup pour", joueur)
             passes += 1 # Si pas de coup, le joueur passe son tour
