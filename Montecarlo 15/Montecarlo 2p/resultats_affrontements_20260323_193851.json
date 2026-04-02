@@ -1,0 +1,2382 @@
+{
+  "timestamp": "2026-03-23T19:38:51.769030",
+  "parameters": {
+    "games_per_matchup": 4,
+    "profondeur": 2,
+    "simu_montecarlo": 15
+  },
+  "results": {
+    "montecarlo_vs_random": {
+      "s1_wins": 4,
+      "s2_wins": 0,
+      "draws": 0,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "montecarlo",
+          "s2": "random",
+          "winner": "montecarlo",
+          "result": "X",
+          "moves": 63,
+          "timestamp": "2026-03-23T19:36:20.857540"
+        },
+        {
+          "game_num": 2,
+          "s1": "montecarlo",
+          "s2": "random",
+          "winner": "montecarlo",
+          "result": "X",
+          "moves": 66,
+          "timestamp": "2026-03-23T19:36:26.264090"
+        },
+        {
+          "game_num": 3,
+          "s1": "montecarlo",
+          "s2": "random",
+          "winner": "montecarlo",
+          "result": "X",
+          "moves": 63,
+          "timestamp": "2026-03-23T19:36:30.758446"
+        },
+        {
+          "game_num": 4,
+          "s1": "montecarlo",
+          "s2": "random",
+          "winner": "montecarlo",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:36:35.387539"
+        }
+      ]
+    },
+    "montecarlo_vs_poids": {
+      "s1_wins": 3,
+      "s2_wins": 1,
+      "draws": 0,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "montecarlo",
+          "s2": "poids",
+          "winner": "montecarlo",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:36:39.101608"
+        },
+        {
+          "game_num": 2,
+          "s1": "montecarlo",
+          "s2": "poids",
+          "winner": "montecarlo",
+          "result": "X",
+          "moves": 63,
+          "timestamp": "2026-03-23T19:36:42.502638"
+        },
+        {
+          "game_num": 3,
+          "s1": "montecarlo",
+          "s2": "poids",
+          "winner": "montecarlo",
+          "result": "X",
+          "moves": 63,
+          "timestamp": "2026-03-23T19:36:45.460945"
+        },
+        {
+          "game_num": 4,
+          "s1": "montecarlo",
+          "s2": "poids",
+          "winner": "poids",
+          "result": "O",
+          "moves": 63,
+          "timestamp": "2026-03-23T19:36:49.140190"
+        }
+      ]
+    },
+    "montecarlo_vs_mobilite": {
+      "s1_wins": 3,
+      "s2_wins": 1,
+      "draws": 0,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "montecarlo",
+          "s2": "mobilite",
+          "winner": "montecarlo",
+          "result": "X",
+          "moves": 67,
+          "timestamp": "2026-03-23T19:36:52.149518"
+        },
+        {
+          "game_num": 2,
+          "s1": "montecarlo",
+          "s2": "mobilite",
+          "winner": "mobilite",
+          "result": "O",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:36:55.661498"
+        },
+        {
+          "game_num": 3,
+          "s1": "montecarlo",
+          "s2": "mobilite",
+          "winner": "montecarlo",
+          "result": "X",
+          "moves": 65,
+          "timestamp": "2026-03-23T19:36:58.655424"
+        },
+        {
+          "game_num": 4,
+          "s1": "montecarlo",
+          "s2": "mobilite",
+          "winner": "montecarlo",
+          "result": "X",
+          "moves": 64,
+          "timestamp": "2026-03-23T19:37:02.618254"
+        }
+      ]
+    },
+    "montecarlo_vs_mixte": {
+      "s1_wins": 4,
+      "s2_wins": 0,
+      "draws": 0,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "montecarlo",
+          "s2": "mixte",
+          "winner": "montecarlo",
+          "result": "X",
+          "moves": 63,
+          "timestamp": "2026-03-23T19:37:06.487389"
+        },
+        {
+          "game_num": 2,
+          "s1": "montecarlo",
+          "s2": "mixte",
+          "winner": "montecarlo",
+          "result": "X",
+          "moves": 63,
+          "timestamp": "2026-03-23T19:37:10.253905"
+        },
+        {
+          "game_num": 3,
+          "s1": "montecarlo",
+          "s2": "mixte",
+          "winner": "montecarlo",
+          "result": "X",
+          "moves": 63,
+          "timestamp": "2026-03-23T19:37:14.666870"
+        },
+        {
+          "game_num": 4,
+          "s1": "montecarlo",
+          "s2": "mixte",
+          "winner": "montecarlo",
+          "result": "X",
+          "moves": 66,
+          "timestamp": "2026-03-23T19:37:18.886090"
+        }
+      ]
+    },
+    "montecarlo_vs_absolu": {
+      "s1_wins": 3,
+      "s2_wins": 1,
+      "draws": 0,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "montecarlo",
+          "s2": "absolu",
+          "winner": "absolu",
+          "result": "O",
+          "moves": 63,
+          "timestamp": "2026-03-23T19:37:22.484433"
+        },
+        {
+          "game_num": 2,
+          "s1": "montecarlo",
+          "s2": "absolu",
+          "winner": "montecarlo",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:37:26.550238"
+        },
+        {
+          "game_num": 3,
+          "s1": "montecarlo",
+          "s2": "absolu",
+          "winner": "montecarlo",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:37:30.262428"
+        },
+        {
+          "game_num": 4,
+          "s1": "montecarlo",
+          "s2": "absolu",
+          "winner": "montecarlo",
+          "result": "X",
+          "moves": 63,
+          "timestamp": "2026-03-23T19:37:33.797580"
+        }
+      ]
+    },
+    "random_vs_montecarlo": {
+      "s1_wins": 0,
+      "s2_wins": 4,
+      "draws": 0,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "random",
+          "s2": "montecarlo",
+          "winner": "montecarlo",
+          "result": "O",
+          "moves": 63,
+          "timestamp": "2026-03-23T19:37:37.902275"
+        },
+        {
+          "game_num": 2,
+          "s1": "random",
+          "s2": "montecarlo",
+          "winner": "montecarlo",
+          "result": "O",
+          "moves": 63,
+          "timestamp": "2026-03-23T19:37:41.532163"
+        },
+        {
+          "game_num": 3,
+          "s1": "random",
+          "s2": "montecarlo",
+          "winner": "montecarlo",
+          "result": "O",
+          "moves": 65,
+          "timestamp": "2026-03-23T19:37:44.895566"
+        },
+        {
+          "game_num": 4,
+          "s1": "random",
+          "s2": "montecarlo",
+          "winner": "montecarlo",
+          "result": "O",
+          "moves": 64,
+          "timestamp": "2026-03-23T19:37:49.231414"
+        }
+      ]
+    },
+    "random_vs_poids": {
+      "s1_wins": 2,
+      "s2_wins": 1,
+      "draws": 1,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "random",
+          "s2": "poids",
+          "winner": "poids",
+          "result": "O",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:37:49.269715"
+        },
+        {
+          "game_num": 2,
+          "s1": "random",
+          "s2": "poids",
+          "winner": "random",
+          "result": "X",
+          "moves": 64,
+          "timestamp": "2026-03-23T19:37:49.301082"
+        },
+        {
+          "game_num": 3,
+          "s1": "random",
+          "s2": "poids",
+          "winner": "random",
+          "result": "X",
+          "moves": 64,
+          "timestamp": "2026-03-23T19:37:49.332993"
+        },
+        {
+          "game_num": 4,
+          "s1": "random",
+          "s2": "poids",
+          "winner": "Égalité",
+          "result": "Egalite",
+          "moves": 64,
+          "timestamp": "2026-03-23T19:37:49.379048"
+        }
+      ]
+    },
+    "random_vs_mobilite": {
+      "s1_wins": 3,
+      "s2_wins": 1,
+      "draws": 0,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "random",
+          "s2": "mobilite",
+          "winner": "random",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:37:49.421731"
+        },
+        {
+          "game_num": 2,
+          "s1": "random",
+          "s2": "mobilite",
+          "winner": "mobilite",
+          "result": "O",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:37:49.455236"
+        },
+        {
+          "game_num": 3,
+          "s1": "random",
+          "s2": "mobilite",
+          "winner": "random",
+          "result": "X",
+          "moves": 64,
+          "timestamp": "2026-03-23T19:37:49.501120"
+        },
+        {
+          "game_num": 4,
+          "s1": "random",
+          "s2": "mobilite",
+          "winner": "random",
+          "result": "X",
+          "moves": 63,
+          "timestamp": "2026-03-23T19:37:49.532002"
+        }
+      ]
+    },
+    "random_vs_mixte": {
+      "s1_wins": 2,
+      "s2_wins": 2,
+      "draws": 0,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "random",
+          "s2": "mixte",
+          "winner": "mixte",
+          "result": "O",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:37:49.584361"
+        },
+        {
+          "game_num": 2,
+          "s1": "random",
+          "s2": "mixte",
+          "winner": "mixte",
+          "result": "O",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:37:49.645591"
+        },
+        {
+          "game_num": 3,
+          "s1": "random",
+          "s2": "mixte",
+          "winner": "random",
+          "result": "X",
+          "moves": 63,
+          "timestamp": "2026-03-23T19:37:49.696341"
+        },
+        {
+          "game_num": 4,
+          "s1": "random",
+          "s2": "mixte",
+          "winner": "random",
+          "result": "X",
+          "moves": 64,
+          "timestamp": "2026-03-23T19:37:49.721321"
+        }
+      ]
+    },
+    "random_vs_absolu": {
+      "s1_wins": 1,
+      "s2_wins": 3,
+      "draws": 0,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "random",
+          "s2": "absolu",
+          "winner": "random",
+          "result": "X",
+          "moves": 63,
+          "timestamp": "2026-03-23T19:37:49.757786"
+        },
+        {
+          "game_num": 2,
+          "s1": "random",
+          "s2": "absolu",
+          "winner": "absolu",
+          "result": "O",
+          "moves": 63,
+          "timestamp": "2026-03-23T19:37:49.805529"
+        },
+        {
+          "game_num": 3,
+          "s1": "random",
+          "s2": "absolu",
+          "winner": "absolu",
+          "result": "O",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:37:49.852640"
+        },
+        {
+          "game_num": 4,
+          "s1": "random",
+          "s2": "absolu",
+          "winner": "absolu",
+          "result": "O",
+          "moves": 65,
+          "timestamp": "2026-03-23T19:37:49.898097"
+        }
+      ]
+    },
+    "poids_vs_montecarlo": {
+      "s1_wins": 0,
+      "s2_wins": 4,
+      "draws": 0,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "poids",
+          "s2": "montecarlo",
+          "winner": "montecarlo",
+          "result": "O",
+          "moves": 63,
+          "timestamp": "2026-03-23T19:37:53.564586"
+        },
+        {
+          "game_num": 2,
+          "s1": "poids",
+          "s2": "montecarlo",
+          "winner": "montecarlo",
+          "result": "O",
+          "moves": 64,
+          "timestamp": "2026-03-23T19:37:57.468140"
+        },
+        {
+          "game_num": 3,
+          "s1": "poids",
+          "s2": "montecarlo",
+          "winner": "montecarlo",
+          "result": "O",
+          "moves": 66,
+          "timestamp": "2026-03-23T19:37:59.838587"
+        },
+        {
+          "game_num": 4,
+          "s1": "poids",
+          "s2": "montecarlo",
+          "winner": "montecarlo",
+          "result": "O",
+          "moves": 63,
+          "timestamp": "2026-03-23T19:38:03.838145"
+        }
+      ]
+    },
+    "poids_vs_random": {
+      "s1_wins": 2,
+      "s2_wins": 2,
+      "draws": 0,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "poids",
+          "s2": "random",
+          "winner": "poids",
+          "result": "X",
+          "moves": 63,
+          "timestamp": "2026-03-23T19:38:03.866295"
+        },
+        {
+          "game_num": 2,
+          "s1": "poids",
+          "s2": "random",
+          "winner": "poids",
+          "result": "X",
+          "moves": 63,
+          "timestamp": "2026-03-23T19:38:03.905204"
+        },
+        {
+          "game_num": 3,
+          "s1": "poids",
+          "s2": "random",
+          "winner": "random",
+          "result": "O",
+          "moves": 63,
+          "timestamp": "2026-03-23T19:38:03.941851"
+        },
+        {
+          "game_num": 4,
+          "s1": "poids",
+          "s2": "random",
+          "winner": "random",
+          "result": "O",
+          "moves": 65,
+          "timestamp": "2026-03-23T19:38:03.973840"
+        }
+      ]
+    },
+    "poids_vs_mobilite": {
+      "s1_wins": 4,
+      "s2_wins": 0,
+      "draws": 0,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "poids",
+          "s2": "mobilite",
+          "winner": "poids",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:04.046973"
+        },
+        {
+          "game_num": 2,
+          "s1": "poids",
+          "s2": "mobilite",
+          "winner": "poids",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:04.122219"
+        },
+        {
+          "game_num": 3,
+          "s1": "poids",
+          "s2": "mobilite",
+          "winner": "poids",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:04.197201"
+        },
+        {
+          "game_num": 4,
+          "s1": "poids",
+          "s2": "mobilite",
+          "winner": "poids",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:04.267253"
+        }
+      ]
+    },
+    "poids_vs_mixte": {
+      "s1_wins": 4,
+      "s2_wins": 0,
+      "draws": 0,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "poids",
+          "s2": "mixte",
+          "winner": "poids",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:04.336541"
+        },
+        {
+          "game_num": 2,
+          "s1": "poids",
+          "s2": "mixte",
+          "winner": "poids",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:04.418499"
+        },
+        {
+          "game_num": 3,
+          "s1": "poids",
+          "s2": "mixte",
+          "winner": "poids",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:04.487083"
+        },
+        {
+          "game_num": 4,
+          "s1": "poids",
+          "s2": "mixte",
+          "winner": "poids",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:04.559850"
+        }
+      ]
+    },
+    "poids_vs_absolu": {
+      "s1_wins": 4,
+      "s2_wins": 0,
+      "draws": 0,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "poids",
+          "s2": "absolu",
+          "winner": "poids",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:04.628062"
+        },
+        {
+          "game_num": 2,
+          "s1": "poids",
+          "s2": "absolu",
+          "winner": "poids",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:04.695695"
+        },
+        {
+          "game_num": 3,
+          "s1": "poids",
+          "s2": "absolu",
+          "winner": "poids",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:04.763512"
+        },
+        {
+          "game_num": 4,
+          "s1": "poids",
+          "s2": "absolu",
+          "winner": "poids",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:04.831456"
+        }
+      ]
+    },
+    "mobilite_vs_montecarlo": {
+      "s1_wins": 0,
+      "s2_wins": 4,
+      "draws": 0,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "mobilite",
+          "s2": "montecarlo",
+          "winner": "montecarlo",
+          "result": "O",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:07.894180"
+        },
+        {
+          "game_num": 2,
+          "s1": "mobilite",
+          "s2": "montecarlo",
+          "winner": "montecarlo",
+          "result": "O",
+          "moves": 63,
+          "timestamp": "2026-03-23T19:38:11.393171"
+        },
+        {
+          "game_num": 3,
+          "s1": "mobilite",
+          "s2": "montecarlo",
+          "winner": "montecarlo",
+          "result": "O",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:15.361757"
+        },
+        {
+          "game_num": 4,
+          "s1": "mobilite",
+          "s2": "montecarlo",
+          "winner": "montecarlo",
+          "result": "O",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:19.125963"
+        }
+      ]
+    },
+    "mobilite_vs_random": {
+      "s1_wins": 1,
+      "s2_wins": 2,
+      "draws": 1,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "mobilite",
+          "s2": "random",
+          "winner": "Égalité",
+          "result": "Egalite",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:19.185849"
+        },
+        {
+          "game_num": 2,
+          "s1": "mobilite",
+          "s2": "random",
+          "winner": "random",
+          "result": "O",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:19.222870"
+        },
+        {
+          "game_num": 3,
+          "s1": "mobilite",
+          "s2": "random",
+          "winner": "mobilite",
+          "result": "X",
+          "moves": 63,
+          "timestamp": "2026-03-23T19:38:19.284180"
+        },
+        {
+          "game_num": 4,
+          "s1": "mobilite",
+          "s2": "random",
+          "winner": "random",
+          "result": "O",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:19.327926"
+        }
+      ]
+    },
+    "mobilite_vs_poids": {
+      "s1_wins": 4,
+      "s2_wins": 0,
+      "draws": 0,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "mobilite",
+          "s2": "poids",
+          "winner": "mobilite",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:19.402725"
+        },
+        {
+          "game_num": 2,
+          "s1": "mobilite",
+          "s2": "poids",
+          "winner": "mobilite",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:19.482290"
+        },
+        {
+          "game_num": 3,
+          "s1": "mobilite",
+          "s2": "poids",
+          "winner": "mobilite",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:19.555960"
+        },
+        {
+          "game_num": 4,
+          "s1": "mobilite",
+          "s2": "poids",
+          "winner": "mobilite",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:19.629554"
+        }
+      ]
+    },
+    "mobilite_vs_mixte": {
+      "s1_wins": 4,
+      "s2_wins": 0,
+      "draws": 0,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "mobilite",
+          "s2": "mixte",
+          "winner": "mobilite",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:19.706492"
+        },
+        {
+          "game_num": 2,
+          "s1": "mobilite",
+          "s2": "mixte",
+          "winner": "mobilite",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:19.787010"
+        },
+        {
+          "game_num": 3,
+          "s1": "mobilite",
+          "s2": "mixte",
+          "winner": "mobilite",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:19.860412"
+        },
+        {
+          "game_num": 4,
+          "s1": "mobilite",
+          "s2": "mixte",
+          "winner": "mobilite",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:19.931266"
+        }
+      ]
+    },
+    "mobilite_vs_absolu": {
+      "s1_wins": 4,
+      "s2_wins": 0,
+      "draws": 0,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "mobilite",
+          "s2": "absolu",
+          "winner": "mobilite",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:20.004492"
+        },
+        {
+          "game_num": 2,
+          "s1": "mobilite",
+          "s2": "absolu",
+          "winner": "mobilite",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:20.080731"
+        },
+        {
+          "game_num": 3,
+          "s1": "mobilite",
+          "s2": "absolu",
+          "winner": "mobilite",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:20.150673"
+        },
+        {
+          "game_num": 4,
+          "s1": "mobilite",
+          "s2": "absolu",
+          "winner": "mobilite",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:20.220646"
+        }
+      ]
+    },
+    "mixte_vs_montecarlo": {
+      "s1_wins": 0,
+      "s2_wins": 4,
+      "draws": 0,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "mixte",
+          "s2": "montecarlo",
+          "winner": "montecarlo",
+          "result": "O",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:23.143850"
+        },
+        {
+          "game_num": 2,
+          "s1": "mixte",
+          "s2": "montecarlo",
+          "winner": "montecarlo",
+          "result": "O",
+          "moves": 64,
+          "timestamp": "2026-03-23T19:38:26.510994"
+        },
+        {
+          "game_num": 3,
+          "s1": "mixte",
+          "s2": "montecarlo",
+          "winner": "montecarlo",
+          "result": "O",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:30.235300"
+        },
+        {
+          "game_num": 4,
+          "s1": "mixte",
+          "s2": "montecarlo",
+          "winner": "montecarlo",
+          "result": "O",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:34.114132"
+        }
+      ]
+    },
+    "mixte_vs_random": {
+      "s1_wins": 3,
+      "s2_wins": 1,
+      "draws": 0,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "mixte",
+          "s2": "random",
+          "winner": "random",
+          "result": "O",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:34.147205"
+        },
+        {
+          "game_num": 2,
+          "s1": "mixte",
+          "s2": "random",
+          "winner": "mixte",
+          "result": "X",
+          "moves": 63,
+          "timestamp": "2026-03-23T19:38:34.177300"
+        },
+        {
+          "game_num": 3,
+          "s1": "mixte",
+          "s2": "random",
+          "winner": "mixte",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:34.217547"
+        },
+        {
+          "game_num": 4,
+          "s1": "mixte",
+          "s2": "random",
+          "winner": "mixte",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:34.245832"
+        }
+      ]
+    },
+    "mixte_vs_poids": {
+      "s1_wins": 4,
+      "s2_wins": 0,
+      "draws": 0,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "mixte",
+          "s2": "poids",
+          "winner": "mixte",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:34.316059"
+        },
+        {
+          "game_num": 2,
+          "s1": "mixte",
+          "s2": "poids",
+          "winner": "mixte",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:34.386298"
+        },
+        {
+          "game_num": 3,
+          "s1": "mixte",
+          "s2": "poids",
+          "winner": "mixte",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:34.460541"
+        },
+        {
+          "game_num": 4,
+          "s1": "mixte",
+          "s2": "poids",
+          "winner": "mixte",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:34.532328"
+        }
+      ]
+    },
+    "mixte_vs_mobilite": {
+      "s1_wins": 4,
+      "s2_wins": 0,
+      "draws": 0,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "mixte",
+          "s2": "mobilite",
+          "winner": "mixte",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:34.603743"
+        },
+        {
+          "game_num": 2,
+          "s1": "mixte",
+          "s2": "mobilite",
+          "winner": "mixte",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:34.675648"
+        },
+        {
+          "game_num": 3,
+          "s1": "mixte",
+          "s2": "mobilite",
+          "winner": "mixte",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:34.745880"
+        },
+        {
+          "game_num": 4,
+          "s1": "mixte",
+          "s2": "mobilite",
+          "winner": "mixte",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:34.816813"
+        }
+      ]
+    },
+    "mixte_vs_absolu": {
+      "s1_wins": 4,
+      "s2_wins": 0,
+      "draws": 0,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "mixte",
+          "s2": "absolu",
+          "winner": "mixte",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:34.886957"
+        },
+        {
+          "game_num": 2,
+          "s1": "mixte",
+          "s2": "absolu",
+          "winner": "mixte",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:34.960623"
+        },
+        {
+          "game_num": 3,
+          "s1": "mixte",
+          "s2": "absolu",
+          "winner": "mixte",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:35.032891"
+        },
+        {
+          "game_num": 4,
+          "s1": "mixte",
+          "s2": "absolu",
+          "winner": "mixte",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:35.107681"
+        }
+      ]
+    },
+    "absolu_vs_montecarlo": {
+      "s1_wins": 0,
+      "s2_wins": 4,
+      "draws": 0,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "absolu",
+          "s2": "montecarlo",
+          "winner": "montecarlo",
+          "result": "O",
+          "moves": 64,
+          "timestamp": "2026-03-23T19:38:38.549171"
+        },
+        {
+          "game_num": 2,
+          "s1": "absolu",
+          "s2": "montecarlo",
+          "winner": "montecarlo",
+          "result": "O",
+          "moves": 64,
+          "timestamp": "2026-03-23T19:38:43.067030"
+        },
+        {
+          "game_num": 3,
+          "s1": "absolu",
+          "s2": "montecarlo",
+          "winner": "montecarlo",
+          "result": "O",
+          "moves": 63,
+          "timestamp": "2026-03-23T19:38:47.429261"
+        },
+        {
+          "game_num": 4,
+          "s1": "absolu",
+          "s2": "montecarlo",
+          "winner": "montecarlo",
+          "result": "O",
+          "moves": 64,
+          "timestamp": "2026-03-23T19:38:50.719419"
+        }
+      ]
+    },
+    "absolu_vs_random": {
+      "s1_wins": 2,
+      "s2_wins": 2,
+      "draws": 0,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "absolu",
+          "s2": "random",
+          "winner": "random",
+          "result": "O",
+          "moves": 64,
+          "timestamp": "2026-03-23T19:38:50.766369"
+        },
+        {
+          "game_num": 2,
+          "s1": "absolu",
+          "s2": "random",
+          "winner": "random",
+          "result": "O",
+          "moves": 63,
+          "timestamp": "2026-03-23T19:38:50.808843"
+        },
+        {
+          "game_num": 3,
+          "s1": "absolu",
+          "s2": "random",
+          "winner": "absolu",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:50.841081"
+        },
+        {
+          "game_num": 4,
+          "s1": "absolu",
+          "s2": "random",
+          "winner": "absolu",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:50.872973"
+        }
+      ]
+    },
+    "absolu_vs_poids": {
+      "s1_wins": 4,
+      "s2_wins": 0,
+      "draws": 0,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "absolu",
+          "s2": "poids",
+          "winner": "absolu",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:50.964083"
+        },
+        {
+          "game_num": 2,
+          "s1": "absolu",
+          "s2": "poids",
+          "winner": "absolu",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:51.042500"
+        },
+        {
+          "game_num": 3,
+          "s1": "absolu",
+          "s2": "poids",
+          "winner": "absolu",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:51.124070"
+        },
+        {
+          "game_num": 4,
+          "s1": "absolu",
+          "s2": "poids",
+          "winner": "absolu",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:51.200062"
+        }
+      ]
+    },
+    "absolu_vs_mobilite": {
+      "s1_wins": 4,
+      "s2_wins": 0,
+      "draws": 0,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "absolu",
+          "s2": "mobilite",
+          "winner": "absolu",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:51.271771"
+        },
+        {
+          "game_num": 2,
+          "s1": "absolu",
+          "s2": "mobilite",
+          "winner": "absolu",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:51.342910"
+        },
+        {
+          "game_num": 3,
+          "s1": "absolu",
+          "s2": "mobilite",
+          "winner": "absolu",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:51.411833"
+        },
+        {
+          "game_num": 4,
+          "s1": "absolu",
+          "s2": "mobilite",
+          "winner": "absolu",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:51.481369"
+        }
+      ]
+    },
+    "absolu_vs_mixte": {
+      "s1_wins": 4,
+      "s2_wins": 0,
+      "draws": 0,
+      "games": [
+        {
+          "game_num": 1,
+          "s1": "absolu",
+          "s2": "mixte",
+          "winner": "absolu",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:51.551906"
+        },
+        {
+          "game_num": 2,
+          "s1": "absolu",
+          "s2": "mixte",
+          "winner": "absolu",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:51.625995"
+        },
+        {
+          "game_num": 3,
+          "s1": "absolu",
+          "s2": "mixte",
+          "winner": "absolu",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:51.695309"
+        },
+        {
+          "game_num": 4,
+          "s1": "absolu",
+          "s2": "mixte",
+          "winner": "absolu",
+          "result": "X",
+          "moves": 62,
+          "timestamp": "2026-03-23T19:38:51.766368"
+        }
+      ]
+    }
+  },
+  "logs": [
+    {
+      "game_num": 1,
+      "s1": "montecarlo",
+      "s2": "random",
+      "winner": "montecarlo",
+      "result": "X",
+      "moves": 63,
+      "timestamp": "2026-03-23T19:36:20.857540"
+    },
+    {
+      "game_num": 2,
+      "s1": "montecarlo",
+      "s2": "random",
+      "winner": "montecarlo",
+      "result": "X",
+      "moves": 66,
+      "timestamp": "2026-03-23T19:36:26.264090"
+    },
+    {
+      "game_num": 3,
+      "s1": "montecarlo",
+      "s2": "random",
+      "winner": "montecarlo",
+      "result": "X",
+      "moves": 63,
+      "timestamp": "2026-03-23T19:36:30.758446"
+    },
+    {
+      "game_num": 4,
+      "s1": "montecarlo",
+      "s2": "random",
+      "winner": "montecarlo",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:36:35.387539"
+    },
+    {
+      "game_num": 1,
+      "s1": "montecarlo",
+      "s2": "poids",
+      "winner": "montecarlo",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:36:39.101608"
+    },
+    {
+      "game_num": 2,
+      "s1": "montecarlo",
+      "s2": "poids",
+      "winner": "montecarlo",
+      "result": "X",
+      "moves": 63,
+      "timestamp": "2026-03-23T19:36:42.502638"
+    },
+    {
+      "game_num": 3,
+      "s1": "montecarlo",
+      "s2": "poids",
+      "winner": "montecarlo",
+      "result": "X",
+      "moves": 63,
+      "timestamp": "2026-03-23T19:36:45.460945"
+    },
+    {
+      "game_num": 4,
+      "s1": "montecarlo",
+      "s2": "poids",
+      "winner": "poids",
+      "result": "O",
+      "moves": 63,
+      "timestamp": "2026-03-23T19:36:49.140190"
+    },
+    {
+      "game_num": 1,
+      "s1": "montecarlo",
+      "s2": "mobilite",
+      "winner": "montecarlo",
+      "result": "X",
+      "moves": 67,
+      "timestamp": "2026-03-23T19:36:52.149518"
+    },
+    {
+      "game_num": 2,
+      "s1": "montecarlo",
+      "s2": "mobilite",
+      "winner": "mobilite",
+      "result": "O",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:36:55.661498"
+    },
+    {
+      "game_num": 3,
+      "s1": "montecarlo",
+      "s2": "mobilite",
+      "winner": "montecarlo",
+      "result": "X",
+      "moves": 65,
+      "timestamp": "2026-03-23T19:36:58.655424"
+    },
+    {
+      "game_num": 4,
+      "s1": "montecarlo",
+      "s2": "mobilite",
+      "winner": "montecarlo",
+      "result": "X",
+      "moves": 64,
+      "timestamp": "2026-03-23T19:37:02.618254"
+    },
+    {
+      "game_num": 1,
+      "s1": "montecarlo",
+      "s2": "mixte",
+      "winner": "montecarlo",
+      "result": "X",
+      "moves": 63,
+      "timestamp": "2026-03-23T19:37:06.487389"
+    },
+    {
+      "game_num": 2,
+      "s1": "montecarlo",
+      "s2": "mixte",
+      "winner": "montecarlo",
+      "result": "X",
+      "moves": 63,
+      "timestamp": "2026-03-23T19:37:10.253905"
+    },
+    {
+      "game_num": 3,
+      "s1": "montecarlo",
+      "s2": "mixte",
+      "winner": "montecarlo",
+      "result": "X",
+      "moves": 63,
+      "timestamp": "2026-03-23T19:37:14.666870"
+    },
+    {
+      "game_num": 4,
+      "s1": "montecarlo",
+      "s2": "mixte",
+      "winner": "montecarlo",
+      "result": "X",
+      "moves": 66,
+      "timestamp": "2026-03-23T19:37:18.886090"
+    },
+    {
+      "game_num": 1,
+      "s1": "montecarlo",
+      "s2": "absolu",
+      "winner": "absolu",
+      "result": "O",
+      "moves": 63,
+      "timestamp": "2026-03-23T19:37:22.484433"
+    },
+    {
+      "game_num": 2,
+      "s1": "montecarlo",
+      "s2": "absolu",
+      "winner": "montecarlo",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:37:26.550238"
+    },
+    {
+      "game_num": 3,
+      "s1": "montecarlo",
+      "s2": "absolu",
+      "winner": "montecarlo",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:37:30.262428"
+    },
+    {
+      "game_num": 4,
+      "s1": "montecarlo",
+      "s2": "absolu",
+      "winner": "montecarlo",
+      "result": "X",
+      "moves": 63,
+      "timestamp": "2026-03-23T19:37:33.797580"
+    },
+    {
+      "game_num": 1,
+      "s1": "random",
+      "s2": "montecarlo",
+      "winner": "montecarlo",
+      "result": "O",
+      "moves": 63,
+      "timestamp": "2026-03-23T19:37:37.902275"
+    },
+    {
+      "game_num": 2,
+      "s1": "random",
+      "s2": "montecarlo",
+      "winner": "montecarlo",
+      "result": "O",
+      "moves": 63,
+      "timestamp": "2026-03-23T19:37:41.532163"
+    },
+    {
+      "game_num": 3,
+      "s1": "random",
+      "s2": "montecarlo",
+      "winner": "montecarlo",
+      "result": "O",
+      "moves": 65,
+      "timestamp": "2026-03-23T19:37:44.895566"
+    },
+    {
+      "game_num": 4,
+      "s1": "random",
+      "s2": "montecarlo",
+      "winner": "montecarlo",
+      "result": "O",
+      "moves": 64,
+      "timestamp": "2026-03-23T19:37:49.231414"
+    },
+    {
+      "game_num": 1,
+      "s1": "random",
+      "s2": "poids",
+      "winner": "poids",
+      "result": "O",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:37:49.269715"
+    },
+    {
+      "game_num": 2,
+      "s1": "random",
+      "s2": "poids",
+      "winner": "random",
+      "result": "X",
+      "moves": 64,
+      "timestamp": "2026-03-23T19:37:49.301082"
+    },
+    {
+      "game_num": 3,
+      "s1": "random",
+      "s2": "poids",
+      "winner": "random",
+      "result": "X",
+      "moves": 64,
+      "timestamp": "2026-03-23T19:37:49.332993"
+    },
+    {
+      "game_num": 4,
+      "s1": "random",
+      "s2": "poids",
+      "winner": "Égalité",
+      "result": "Egalite",
+      "moves": 64,
+      "timestamp": "2026-03-23T19:37:49.379048"
+    },
+    {
+      "game_num": 1,
+      "s1": "random",
+      "s2": "mobilite",
+      "winner": "random",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:37:49.421731"
+    },
+    {
+      "game_num": 2,
+      "s1": "random",
+      "s2": "mobilite",
+      "winner": "mobilite",
+      "result": "O",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:37:49.455236"
+    },
+    {
+      "game_num": 3,
+      "s1": "random",
+      "s2": "mobilite",
+      "winner": "random",
+      "result": "X",
+      "moves": 64,
+      "timestamp": "2026-03-23T19:37:49.501120"
+    },
+    {
+      "game_num": 4,
+      "s1": "random",
+      "s2": "mobilite",
+      "winner": "random",
+      "result": "X",
+      "moves": 63,
+      "timestamp": "2026-03-23T19:37:49.532002"
+    },
+    {
+      "game_num": 1,
+      "s1": "random",
+      "s2": "mixte",
+      "winner": "mixte",
+      "result": "O",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:37:49.584361"
+    },
+    {
+      "game_num": 2,
+      "s1": "random",
+      "s2": "mixte",
+      "winner": "mixte",
+      "result": "O",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:37:49.645591"
+    },
+    {
+      "game_num": 3,
+      "s1": "random",
+      "s2": "mixte",
+      "winner": "random",
+      "result": "X",
+      "moves": 63,
+      "timestamp": "2026-03-23T19:37:49.696341"
+    },
+    {
+      "game_num": 4,
+      "s1": "random",
+      "s2": "mixte",
+      "winner": "random",
+      "result": "X",
+      "moves": 64,
+      "timestamp": "2026-03-23T19:37:49.721321"
+    },
+    {
+      "game_num": 1,
+      "s1": "random",
+      "s2": "absolu",
+      "winner": "random",
+      "result": "X",
+      "moves": 63,
+      "timestamp": "2026-03-23T19:37:49.757786"
+    },
+    {
+      "game_num": 2,
+      "s1": "random",
+      "s2": "absolu",
+      "winner": "absolu",
+      "result": "O",
+      "moves": 63,
+      "timestamp": "2026-03-23T19:37:49.805529"
+    },
+    {
+      "game_num": 3,
+      "s1": "random",
+      "s2": "absolu",
+      "winner": "absolu",
+      "result": "O",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:37:49.852640"
+    },
+    {
+      "game_num": 4,
+      "s1": "random",
+      "s2": "absolu",
+      "winner": "absolu",
+      "result": "O",
+      "moves": 65,
+      "timestamp": "2026-03-23T19:37:49.898097"
+    },
+    {
+      "game_num": 1,
+      "s1": "poids",
+      "s2": "montecarlo",
+      "winner": "montecarlo",
+      "result": "O",
+      "moves": 63,
+      "timestamp": "2026-03-23T19:37:53.564586"
+    },
+    {
+      "game_num": 2,
+      "s1": "poids",
+      "s2": "montecarlo",
+      "winner": "montecarlo",
+      "result": "O",
+      "moves": 64,
+      "timestamp": "2026-03-23T19:37:57.468140"
+    },
+    {
+      "game_num": 3,
+      "s1": "poids",
+      "s2": "montecarlo",
+      "winner": "montecarlo",
+      "result": "O",
+      "moves": 66,
+      "timestamp": "2026-03-23T19:37:59.838587"
+    },
+    {
+      "game_num": 4,
+      "s1": "poids",
+      "s2": "montecarlo",
+      "winner": "montecarlo",
+      "result": "O",
+      "moves": 63,
+      "timestamp": "2026-03-23T19:38:03.838145"
+    },
+    {
+      "game_num": 1,
+      "s1": "poids",
+      "s2": "random",
+      "winner": "poids",
+      "result": "X",
+      "moves": 63,
+      "timestamp": "2026-03-23T19:38:03.866295"
+    },
+    {
+      "game_num": 2,
+      "s1": "poids",
+      "s2": "random",
+      "winner": "poids",
+      "result": "X",
+      "moves": 63,
+      "timestamp": "2026-03-23T19:38:03.905204"
+    },
+    {
+      "game_num": 3,
+      "s1": "poids",
+      "s2": "random",
+      "winner": "random",
+      "result": "O",
+      "moves": 63,
+      "timestamp": "2026-03-23T19:38:03.941851"
+    },
+    {
+      "game_num": 4,
+      "s1": "poids",
+      "s2": "random",
+      "winner": "random",
+      "result": "O",
+      "moves": 65,
+      "timestamp": "2026-03-23T19:38:03.973840"
+    },
+    {
+      "game_num": 1,
+      "s1": "poids",
+      "s2": "mobilite",
+      "winner": "poids",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:04.046973"
+    },
+    {
+      "game_num": 2,
+      "s1": "poids",
+      "s2": "mobilite",
+      "winner": "poids",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:04.122219"
+    },
+    {
+      "game_num": 3,
+      "s1": "poids",
+      "s2": "mobilite",
+      "winner": "poids",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:04.197201"
+    },
+    {
+      "game_num": 4,
+      "s1": "poids",
+      "s2": "mobilite",
+      "winner": "poids",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:04.267253"
+    },
+    {
+      "game_num": 1,
+      "s1": "poids",
+      "s2": "mixte",
+      "winner": "poids",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:04.336541"
+    },
+    {
+      "game_num": 2,
+      "s1": "poids",
+      "s2": "mixte",
+      "winner": "poids",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:04.418499"
+    },
+    {
+      "game_num": 3,
+      "s1": "poids",
+      "s2": "mixte",
+      "winner": "poids",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:04.487083"
+    },
+    {
+      "game_num": 4,
+      "s1": "poids",
+      "s2": "mixte",
+      "winner": "poids",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:04.559850"
+    },
+    {
+      "game_num": 1,
+      "s1": "poids",
+      "s2": "absolu",
+      "winner": "poids",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:04.628062"
+    },
+    {
+      "game_num": 2,
+      "s1": "poids",
+      "s2": "absolu",
+      "winner": "poids",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:04.695695"
+    },
+    {
+      "game_num": 3,
+      "s1": "poids",
+      "s2": "absolu",
+      "winner": "poids",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:04.763512"
+    },
+    {
+      "game_num": 4,
+      "s1": "poids",
+      "s2": "absolu",
+      "winner": "poids",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:04.831456"
+    },
+    {
+      "game_num": 1,
+      "s1": "mobilite",
+      "s2": "montecarlo",
+      "winner": "montecarlo",
+      "result": "O",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:07.894180"
+    },
+    {
+      "game_num": 2,
+      "s1": "mobilite",
+      "s2": "montecarlo",
+      "winner": "montecarlo",
+      "result": "O",
+      "moves": 63,
+      "timestamp": "2026-03-23T19:38:11.393171"
+    },
+    {
+      "game_num": 3,
+      "s1": "mobilite",
+      "s2": "montecarlo",
+      "winner": "montecarlo",
+      "result": "O",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:15.361757"
+    },
+    {
+      "game_num": 4,
+      "s1": "mobilite",
+      "s2": "montecarlo",
+      "winner": "montecarlo",
+      "result": "O",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:19.125963"
+    },
+    {
+      "game_num": 1,
+      "s1": "mobilite",
+      "s2": "random",
+      "winner": "Égalité",
+      "result": "Egalite",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:19.185849"
+    },
+    {
+      "game_num": 2,
+      "s1": "mobilite",
+      "s2": "random",
+      "winner": "random",
+      "result": "O",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:19.222870"
+    },
+    {
+      "game_num": 3,
+      "s1": "mobilite",
+      "s2": "random",
+      "winner": "mobilite",
+      "result": "X",
+      "moves": 63,
+      "timestamp": "2026-03-23T19:38:19.284180"
+    },
+    {
+      "game_num": 4,
+      "s1": "mobilite",
+      "s2": "random",
+      "winner": "random",
+      "result": "O",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:19.327926"
+    },
+    {
+      "game_num": 1,
+      "s1": "mobilite",
+      "s2": "poids",
+      "winner": "mobilite",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:19.402725"
+    },
+    {
+      "game_num": 2,
+      "s1": "mobilite",
+      "s2": "poids",
+      "winner": "mobilite",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:19.482290"
+    },
+    {
+      "game_num": 3,
+      "s1": "mobilite",
+      "s2": "poids",
+      "winner": "mobilite",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:19.555960"
+    },
+    {
+      "game_num": 4,
+      "s1": "mobilite",
+      "s2": "poids",
+      "winner": "mobilite",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:19.629554"
+    },
+    {
+      "game_num": 1,
+      "s1": "mobilite",
+      "s2": "mixte",
+      "winner": "mobilite",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:19.706492"
+    },
+    {
+      "game_num": 2,
+      "s1": "mobilite",
+      "s2": "mixte",
+      "winner": "mobilite",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:19.787010"
+    },
+    {
+      "game_num": 3,
+      "s1": "mobilite",
+      "s2": "mixte",
+      "winner": "mobilite",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:19.860412"
+    },
+    {
+      "game_num": 4,
+      "s1": "mobilite",
+      "s2": "mixte",
+      "winner": "mobilite",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:19.931266"
+    },
+    {
+      "game_num": 1,
+      "s1": "mobilite",
+      "s2": "absolu",
+      "winner": "mobilite",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:20.004492"
+    },
+    {
+      "game_num": 2,
+      "s1": "mobilite",
+      "s2": "absolu",
+      "winner": "mobilite",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:20.080731"
+    },
+    {
+      "game_num": 3,
+      "s1": "mobilite",
+      "s2": "absolu",
+      "winner": "mobilite",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:20.150673"
+    },
+    {
+      "game_num": 4,
+      "s1": "mobilite",
+      "s2": "absolu",
+      "winner": "mobilite",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:20.220646"
+    },
+    {
+      "game_num": 1,
+      "s1": "mixte",
+      "s2": "montecarlo",
+      "winner": "montecarlo",
+      "result": "O",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:23.143850"
+    },
+    {
+      "game_num": 2,
+      "s1": "mixte",
+      "s2": "montecarlo",
+      "winner": "montecarlo",
+      "result": "O",
+      "moves": 64,
+      "timestamp": "2026-03-23T19:38:26.510994"
+    },
+    {
+      "game_num": 3,
+      "s1": "mixte",
+      "s2": "montecarlo",
+      "winner": "montecarlo",
+      "result": "O",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:30.235300"
+    },
+    {
+      "game_num": 4,
+      "s1": "mixte",
+      "s2": "montecarlo",
+      "winner": "montecarlo",
+      "result": "O",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:34.114132"
+    },
+    {
+      "game_num": 1,
+      "s1": "mixte",
+      "s2": "random",
+      "winner": "random",
+      "result": "O",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:34.147205"
+    },
+    {
+      "game_num": 2,
+      "s1": "mixte",
+      "s2": "random",
+      "winner": "mixte",
+      "result": "X",
+      "moves": 63,
+      "timestamp": "2026-03-23T19:38:34.177300"
+    },
+    {
+      "game_num": 3,
+      "s1": "mixte",
+      "s2": "random",
+      "winner": "mixte",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:34.217547"
+    },
+    {
+      "game_num": 4,
+      "s1": "mixte",
+      "s2": "random",
+      "winner": "mixte",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:34.245832"
+    },
+    {
+      "game_num": 1,
+      "s1": "mixte",
+      "s2": "poids",
+      "winner": "mixte",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:34.316059"
+    },
+    {
+      "game_num": 2,
+      "s1": "mixte",
+      "s2": "poids",
+      "winner": "mixte",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:34.386298"
+    },
+    {
+      "game_num": 3,
+      "s1": "mixte",
+      "s2": "poids",
+      "winner": "mixte",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:34.460541"
+    },
+    {
+      "game_num": 4,
+      "s1": "mixte",
+      "s2": "poids",
+      "winner": "mixte",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:34.532328"
+    },
+    {
+      "game_num": 1,
+      "s1": "mixte",
+      "s2": "mobilite",
+      "winner": "mixte",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:34.603743"
+    },
+    {
+      "game_num": 2,
+      "s1": "mixte",
+      "s2": "mobilite",
+      "winner": "mixte",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:34.675648"
+    },
+    {
+      "game_num": 3,
+      "s1": "mixte",
+      "s2": "mobilite",
+      "winner": "mixte",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:34.745880"
+    },
+    {
+      "game_num": 4,
+      "s1": "mixte",
+      "s2": "mobilite",
+      "winner": "mixte",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:34.816813"
+    },
+    {
+      "game_num": 1,
+      "s1": "mixte",
+      "s2": "absolu",
+      "winner": "mixte",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:34.886957"
+    },
+    {
+      "game_num": 2,
+      "s1": "mixte",
+      "s2": "absolu",
+      "winner": "mixte",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:34.960623"
+    },
+    {
+      "game_num": 3,
+      "s1": "mixte",
+      "s2": "absolu",
+      "winner": "mixte",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:35.032891"
+    },
+    {
+      "game_num": 4,
+      "s1": "mixte",
+      "s2": "absolu",
+      "winner": "mixte",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:35.107681"
+    },
+    {
+      "game_num": 1,
+      "s1": "absolu",
+      "s2": "montecarlo",
+      "winner": "montecarlo",
+      "result": "O",
+      "moves": 64,
+      "timestamp": "2026-03-23T19:38:38.549171"
+    },
+    {
+      "game_num": 2,
+      "s1": "absolu",
+      "s2": "montecarlo",
+      "winner": "montecarlo",
+      "result": "O",
+      "moves": 64,
+      "timestamp": "2026-03-23T19:38:43.067030"
+    },
+    {
+      "game_num": 3,
+      "s1": "absolu",
+      "s2": "montecarlo",
+      "winner": "montecarlo",
+      "result": "O",
+      "moves": 63,
+      "timestamp": "2026-03-23T19:38:47.429261"
+    },
+    {
+      "game_num": 4,
+      "s1": "absolu",
+      "s2": "montecarlo",
+      "winner": "montecarlo",
+      "result": "O",
+      "moves": 64,
+      "timestamp": "2026-03-23T19:38:50.719419"
+    },
+    {
+      "game_num": 1,
+      "s1": "absolu",
+      "s2": "random",
+      "winner": "random",
+      "result": "O",
+      "moves": 64,
+      "timestamp": "2026-03-23T19:38:50.766369"
+    },
+    {
+      "game_num": 2,
+      "s1": "absolu",
+      "s2": "random",
+      "winner": "random",
+      "result": "O",
+      "moves": 63,
+      "timestamp": "2026-03-23T19:38:50.808843"
+    },
+    {
+      "game_num": 3,
+      "s1": "absolu",
+      "s2": "random",
+      "winner": "absolu",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:50.841081"
+    },
+    {
+      "game_num": 4,
+      "s1": "absolu",
+      "s2": "random",
+      "winner": "absolu",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:50.872973"
+    },
+    {
+      "game_num": 1,
+      "s1": "absolu",
+      "s2": "poids",
+      "winner": "absolu",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:50.964083"
+    },
+    {
+      "game_num": 2,
+      "s1": "absolu",
+      "s2": "poids",
+      "winner": "absolu",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:51.042500"
+    },
+    {
+      "game_num": 3,
+      "s1": "absolu",
+      "s2": "poids",
+      "winner": "absolu",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:51.124070"
+    },
+    {
+      "game_num": 4,
+      "s1": "absolu",
+      "s2": "poids",
+      "winner": "absolu",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:51.200062"
+    },
+    {
+      "game_num": 1,
+      "s1": "absolu",
+      "s2": "mobilite",
+      "winner": "absolu",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:51.271771"
+    },
+    {
+      "game_num": 2,
+      "s1": "absolu",
+      "s2": "mobilite",
+      "winner": "absolu",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:51.342910"
+    },
+    {
+      "game_num": 3,
+      "s1": "absolu",
+      "s2": "mobilite",
+      "winner": "absolu",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:51.411833"
+    },
+    {
+      "game_num": 4,
+      "s1": "absolu",
+      "s2": "mobilite",
+      "winner": "absolu",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:51.481369"
+    },
+    {
+      "game_num": 1,
+      "s1": "absolu",
+      "s2": "mixte",
+      "winner": "absolu",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:51.551906"
+    },
+    {
+      "game_num": 2,
+      "s1": "absolu",
+      "s2": "mixte",
+      "winner": "absolu",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:51.625995"
+    },
+    {
+      "game_num": 3,
+      "s1": "absolu",
+      "s2": "mixte",
+      "winner": "absolu",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:51.695309"
+    },
+    {
+      "game_num": 4,
+      "s1": "absolu",
+      "s2": "mixte",
+      "winner": "absolu",
+      "result": "X",
+      "moves": 62,
+      "timestamp": "2026-03-23T19:38:51.766368"
+    }
+  ]
+}

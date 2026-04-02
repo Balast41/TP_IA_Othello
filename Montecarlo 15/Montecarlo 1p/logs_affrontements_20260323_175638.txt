@@ -1,0 +1,848 @@
+================================================================================
+LOGS DÉTAILLÉS DES AFFRONTEMENTS
+================================================================================
+Date: 2026-03-23 17:56:38
+Nombre de parties par affrontement: 4
+Nombre total de parties: 120
+================================================================================
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: montecarlo vs random
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: montecarlo
+    Coups joués: 65
+    Résultat brut: X
+    Heure: 2026-03-23T17:54:10.621759
+
+  Partie 2
+    Gagnant: montecarlo
+    Coups joués: 63
+    Résultat brut: X
+    Heure: 2026-03-23T17:54:14.604391
+
+  Partie 3
+    Gagnant: montecarlo
+    Coups joués: 62
+    Résultat brut: X
+    Heure: 2026-03-23T17:54:18.551013
+
+  Partie 4
+    Gagnant: montecarlo
+    Coups joués: 64
+    Résultat brut: X
+    Heure: 2026-03-23T17:54:23.478453
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: montecarlo vs poids
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: montecarlo
+    Coups joués: 67
+    Résultat brut: X
+    Heure: 2026-03-23T17:54:27.729704
+
+  Partie 2
+    Gagnant: montecarlo
+    Coups joués: 63
+    Résultat brut: X
+    Heure: 2026-03-23T17:54:32.103714
+
+  Partie 3
+    Gagnant: montecarlo
+    Coups joués: 62
+    Résultat brut: X
+    Heure: 2026-03-23T17:54:35.643411
+
+  Partie 4
+    Gagnant: montecarlo
+    Coups joués: 63
+    Résultat brut: X
+    Heure: 2026-03-23T17:54:40.208498
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: montecarlo vs mobilite
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: montecarlo
+    Coups joués: 63
+    Résultat brut: X
+    Heure: 2026-03-23T17:54:44.936358
+
+  Partie 2
+    Gagnant: montecarlo
+    Coups joués: 65
+    Résultat brut: X
+    Heure: 2026-03-23T17:54:49.244150
+
+  Partie 3
+    Gagnant: montecarlo
+    Coups joués: 63
+    Résultat brut: X
+    Heure: 2026-03-23T17:54:53.300208
+
+  Partie 4
+    Gagnant: montecarlo
+    Coups joués: 63
+    Résultat brut: X
+    Heure: 2026-03-23T17:54:57.592978
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: montecarlo vs mixte
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: montecarlo
+    Coups joués: 63
+    Résultat brut: X
+    Heure: 2026-03-23T17:55:00.852652
+
+  Partie 2
+    Gagnant: montecarlo
+    Coups joués: 64
+    Résultat brut: X
+    Heure: 2026-03-23T17:55:05.498779
+
+  Partie 3
+    Gagnant: montecarlo
+    Coups joués: 66
+    Résultat brut: X
+    Heure: 2026-03-23T17:55:08.982372
+
+  Partie 4
+    Gagnant: montecarlo
+    Coups joués: 62
+    Résultat brut: X
+    Heure: 2026-03-23T17:55:13.108025
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: montecarlo vs absolu
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: montecarlo
+    Coups joués: 62
+    Résultat brut: X
+    Heure: 2026-03-23T17:55:18.266595
+
+  Partie 2
+    Gagnant: montecarlo
+    Coups joués: 66
+    Résultat brut: X
+    Heure: 2026-03-23T17:55:22.360795
+
+  Partie 3
+    Gagnant: montecarlo
+    Coups joués: 63
+    Résultat brut: X
+    Heure: 2026-03-23T17:55:26.378301
+
+  Partie 4
+    Gagnant: montecarlo
+    Coups joués: 65
+    Résultat brut: X
+    Heure: 2026-03-23T17:55:30.778310
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: random vs montecarlo
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: montecarlo
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:55:34.275054
+
+  Partie 2
+    Gagnant: montecarlo
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:55:38.174450
+
+  Partie 3
+    Gagnant: montecarlo
+    Coups joués: 64
+    Résultat brut: O
+    Heure: 2026-03-23T17:55:42.963021
+
+  Partie 4
+    Gagnant: montecarlo
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:55:47.295118
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: random vs poids
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: poids
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:55:47.302592
+
+  Partie 2
+    Gagnant: poids
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:55:47.312355
+
+  Partie 3
+    Gagnant: random
+    Coups joués: 62
+    Résultat brut: X
+    Heure: 2026-03-23T17:55:47.319909
+
+  Partie 4
+    Gagnant: poids
+    Coups joués: 63
+    Résultat brut: O
+    Heure: 2026-03-23T17:55:47.327816
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: random vs mobilite
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: Égalité
+    Coups joués: 67
+    Résultat brut: Egalite
+    Heure: 2026-03-23T17:55:47.335723
+
+  Partie 2
+    Gagnant: random
+    Coups joués: 63
+    Résultat brut: X
+    Heure: 2026-03-23T17:55:47.343580
+
+  Partie 3
+    Gagnant: mobilite
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:55:47.352467
+
+  Partie 4
+    Gagnant: mobilite
+    Coups joués: 63
+    Résultat brut: O
+    Heure: 2026-03-23T17:55:47.361387
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: random vs mixte
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: mixte
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:55:47.368787
+
+  Partie 2
+    Gagnant: mixte
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:55:47.378571
+
+  Partie 3
+    Gagnant: mixte
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:55:47.386722
+
+  Partie 4
+    Gagnant: random
+    Coups joués: 66
+    Résultat brut: X
+    Heure: 2026-03-23T17:55:47.394389
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: random vs absolu
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: absolu
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:55:47.402839
+
+  Partie 2
+    Gagnant: absolu
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:55:47.410563
+
+  Partie 3
+    Gagnant: absolu
+    Coups joués: 63
+    Résultat brut: O
+    Heure: 2026-03-23T17:55:47.418552
+
+  Partie 4
+    Gagnant: random
+    Coups joués: 63
+    Résultat brut: X
+    Heure: 2026-03-23T17:55:47.426570
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: poids vs montecarlo
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: montecarlo
+    Coups joués: 66
+    Résultat brut: O
+    Heure: 2026-03-23T17:55:50.381567
+
+  Partie 2
+    Gagnant: montecarlo
+    Coups joués: 65
+    Résultat brut: O
+    Heure: 2026-03-23T17:55:53.674594
+
+  Partie 3
+    Gagnant: montecarlo
+    Coups joués: 66
+    Résultat brut: O
+    Heure: 2026-03-23T17:55:57.011275
+
+  Partie 4
+    Gagnant: montecarlo
+    Coups joués: 46
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:00.525606
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: poids vs random
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: poids
+    Coups joués: 62
+    Résultat brut: X
+    Heure: 2026-03-23T17:56:00.533046
+
+  Partie 2
+    Gagnant: poids
+    Coups joués: 62
+    Résultat brut: X
+    Heure: 2026-03-23T17:56:00.543717
+
+  Partie 3
+    Gagnant: poids
+    Coups joués: 61
+    Résultat brut: X
+    Heure: 2026-03-23T17:56:00.550881
+
+  Partie 4
+    Gagnant: poids
+    Coups joués: 63
+    Résultat brut: X
+    Heure: 2026-03-23T17:56:00.559909
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: poids vs mobilite
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: mobilite
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:00.573362
+
+  Partie 2
+    Gagnant: mobilite
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:00.586781
+
+  Partie 3
+    Gagnant: mobilite
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:00.598870
+
+  Partie 4
+    Gagnant: mobilite
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:00.612162
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: poids vs mixte
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: mixte
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:00.625371
+
+  Partie 2
+    Gagnant: mixte
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:00.637475
+
+  Partie 3
+    Gagnant: mixte
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:00.649954
+
+  Partie 4
+    Gagnant: mixte
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:00.662118
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: poids vs absolu
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: absolu
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:00.674258
+
+  Partie 2
+    Gagnant: absolu
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:00.686731
+
+  Partie 3
+    Gagnant: absolu
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:00.698575
+
+  Partie 4
+    Gagnant: absolu
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:00.711932
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: mobilite vs montecarlo
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: montecarlo
+    Coups joués: 64
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:04.067592
+
+  Partie 2
+    Gagnant: montecarlo
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:07.548246
+
+  Partie 3
+    Gagnant: montecarlo
+    Coups joués: 64
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:11.217321
+
+  Partie 4
+    Gagnant: montecarlo
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:14.894699
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: mobilite vs random
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: random
+    Coups joués: 63
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:14.902952
+
+  Partie 2
+    Gagnant: random
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:14.912870
+
+  Partie 3
+    Gagnant: mobilite
+    Coups joués: 62
+    Résultat brut: X
+    Heure: 2026-03-23T17:56:14.920559
+
+  Partie 4
+    Gagnant: random
+    Coups joués: 66
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:14.929640
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: mobilite vs poids
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: poids
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:14.942355
+
+  Partie 2
+    Gagnant: poids
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:14.955587
+
+  Partie 3
+    Gagnant: poids
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:14.971953
+
+  Partie 4
+    Gagnant: poids
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:14.983959
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: mobilite vs mixte
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: mixte
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:14.997048
+
+  Partie 2
+    Gagnant: mixte
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:15.012015
+
+  Partie 3
+    Gagnant: mixte
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:15.028430
+
+  Partie 4
+    Gagnant: mixte
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:15.045016
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: mobilite vs absolu
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: absolu
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:15.057785
+
+  Partie 2
+    Gagnant: absolu
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:15.071532
+
+  Partie 3
+    Gagnant: absolu
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:15.084181
+
+  Partie 4
+    Gagnant: absolu
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:15.098685
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: mixte vs montecarlo
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: montecarlo
+    Coups joués: 63
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:18.805937
+
+  Partie 2
+    Gagnant: montecarlo
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:21.539859
+
+  Partie 3
+    Gagnant: montecarlo
+    Coups joués: 65
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:25.554487
+
+  Partie 4
+    Gagnant: mixte
+    Coups joués: 29
+    Résultat brut: X
+    Heure: 2026-03-23T17:56:27.394310
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: mixte vs random
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: random
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:27.401535
+
+  Partie 2
+    Gagnant: mixte
+    Coups joués: 65
+    Résultat brut: X
+    Heure: 2026-03-23T17:56:27.411361
+
+  Partie 3
+    Gagnant: mixte
+    Coups joués: 63
+    Résultat brut: X
+    Heure: 2026-03-23T17:56:27.419454
+
+  Partie 4
+    Gagnant: random
+    Coups joués: 63
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:27.427118
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: mixte vs poids
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: poids
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:27.439312
+
+  Partie 2
+    Gagnant: poids
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:27.450696
+
+  Partie 3
+    Gagnant: poids
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:27.462732
+
+  Partie 4
+    Gagnant: poids
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:27.475422
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: mixte vs mobilite
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: mobilite
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:27.488254
+
+  Partie 2
+    Gagnant: mobilite
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:27.500197
+
+  Partie 3
+    Gagnant: mobilite
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:27.511640
+
+  Partie 4
+    Gagnant: mobilite
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:27.525064
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: mixte vs absolu
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: absolu
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:27.537664
+
+  Partie 2
+    Gagnant: absolu
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:27.550020
+
+  Partie 3
+    Gagnant: absolu
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:27.560772
+
+  Partie 4
+    Gagnant: absolu
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:27.572650
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: absolu vs montecarlo
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: montecarlo
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:30.257803
+
+  Partie 2
+    Gagnant: absolu
+    Coups joués: 23
+    Résultat brut: X
+    Heure: 2026-03-23T17:56:31.900583
+
+  Partie 3
+    Gagnant: montecarlo
+    Coups joués: 64
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:34.972593
+
+  Partie 4
+    Gagnant: montecarlo
+    Coups joués: 63
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:38.757002
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: absolu vs random
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: absolu
+    Coups joués: 62
+    Résultat brut: X
+    Heure: 2026-03-23T17:56:38.765400
+
+  Partie 2
+    Gagnant: random
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:38.775284
+
+  Partie 3
+    Gagnant: absolu
+    Coups joués: 62
+    Résultat brut: X
+    Heure: 2026-03-23T17:56:38.786173
+
+  Partie 4
+    Gagnant: absolu
+    Coups joués: 64
+    Résultat brut: X
+    Heure: 2026-03-23T17:56:38.794704
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: absolu vs poids
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: poids
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:38.807308
+
+  Partie 2
+    Gagnant: poids
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:38.821305
+
+  Partie 3
+    Gagnant: poids
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:38.835478
+
+  Partie 4
+    Gagnant: poids
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:38.848985
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: absolu vs mobilite
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: mobilite
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:38.861416
+
+  Partie 2
+    Gagnant: mobilite
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:38.874784
+
+  Partie 3
+    Gagnant: mobilite
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:38.887340
+
+  Partie 4
+    Gagnant: mobilite
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:38.901981
+
+
+────────────────────────────────────────────────────────────────────────────────
+AFFRONTEMENT: absolu vs mixte
+────────────────────────────────────────────────────────────────────────────────
+  Partie 1
+    Gagnant: mixte
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:38.915451
+
+  Partie 2
+    Gagnant: mixte
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:38.928439
+
+  Partie 3
+    Gagnant: mixte
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:38.941203
+
+  Partie 4
+    Gagnant: mixte
+    Coups joués: 62
+    Résultat brut: O
+    Heure: 2026-03-23T17:56:38.956609
+

@@ -1,0 +1,63 @@
+====================================================================================================
+RÉSUMÉ DES AFFRONTEMENTS - POURCENTAGES DE VICTOIRE
+====================================================================================================
+Date: 2026-03-23 22:12:01
+Nombre de parties par affrontement: 4
+
+TABLEAU DE RÉSULTATS
+────────────────────────────────────────────────────────────────────────────────────────────────────
+Stratégie 1     | Stratégie 2     | Victoires S1    | Victoires S2    | Égalités   | % Victoire S1  
+────────────────────────────────────────────────────────────────────────────────────────────────────
+absolu          | mixte           | 4               | 0               | 0          | 100.00%
+absolu          | mobilite        | 4               | 0               | 0          | 100.00%
+absolu          | montecarlo      | 0               | 4               | 0          |   0.00%
+absolu          | poids           | 4               | 0               | 0          | 100.00%
+absolu          | random          | 3               | 1               | 0          |  75.00%
+mixte           | absolu          | 4               | 0               | 0          | 100.00%
+mixte           | mobilite        | 4               | 0               | 0          | 100.00%
+mixte           | montecarlo      | 2               | 2               | 0          |  50.00%
+mixte           | poids           | 4               | 0               | 0          | 100.00%
+mixte           | random          | 2               | 2               | 0          |  50.00%
+mobilite        | absolu          | 4               | 0               | 0          | 100.00%
+mobilite        | mixte           | 4               | 0               | 0          | 100.00%
+mobilite        | montecarlo      | 0               | 4               | 0          |   0.00%
+mobilite        | poids           | 4               | 0               | 0          | 100.00%
+mobilite        | random          | 3               | 0               | 1          |  75.00%
+montecarlo      | absolu          | 2               | 2               | 0          |  50.00%
+montecarlo      | mixte           | 3               | 1               | 0          |  75.00%
+montecarlo      | mobilite        | 4               | 0               | 0          | 100.00%
+montecarlo      | poids           | 3               | 1               | 0          |  75.00%
+montecarlo      | random          | 4               | 0               | 0          | 100.00%
+poids           | absolu          | 4               | 0               | 0          | 100.00%
+poids           | mixte           | 4               | 0               | 0          | 100.00%
+poids           | mobilite        | 4               | 0               | 0          | 100.00%
+poids           | montecarlo      | 0               | 3               | 1          |   0.00%
+poids           | random          | 4               | 0               | 0          | 100.00%
+random          | absolu          | 0               | 4               | 0          |   0.00%
+random          | mixte           | 1               | 2               | 1          |  25.00%
+random          | mobilite        | 0               | 4               | 0          |   0.00%
+random          | montecarlo      | 0               | 4               | 0          |   0.00%
+random          | poids           | 0               | 4               | 0          |   0.00%
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+STATISTIQUES GLOBALES PAR STRATÉGIE
+────────────────────────────────────────────────────────────────────────────────────────────────────
+Stratégie       | Victoires Totales    | Défaites Totales     | Égalités   | Taux de Victoire    
+────────────────────────────────────────────────────────────────────────────────────────────────────
+absolu          | 21                   | 19                   | 0          |  52.50%
+mixte           | 19                   | 20                   | 1          |  47.50%
+mobilite        | 19                   | 20                   | 1          |  47.50%
+montecarlo      | 33                   | 6                    | 1          |  82.50%
+poids           | 21                   | 18                   | 1          |  52.50%
+random          | 4                    | 34                   | 2          |  10.00%
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+CLASSEMENT DES STRATÉGIES (par taux de victoire global)
+────────────────────────────────────────────────────────────────────────────────────────────────────
+1. montecarlo      -  82.50% de victoire (33/40 parties)
+2. poids           -  52.50% de victoire (21/40 parties)
+3. absolu          -  52.50% de victoire (21/40 parties)
+4. mobilite        -  47.50% de victoire (19/40 parties)
+5. mixte           -  47.50% de victoire (19/40 parties)
+6. random          -  10.00% de victoire (4/40 parties)
+────────────────────────────────────────────────────────────────────────────────────────────────────
