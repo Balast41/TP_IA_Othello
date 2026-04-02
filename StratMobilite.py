@@ -58,7 +58,7 @@ def minimax_alpha_beta(p, profondeur, joueur, alpha=-np.inf, beta=np.inf):
                     pcopie = copy.deepcopy(p) # Copie du plateau
                     Jeu.retournement(pcopie, "O",x,y) # Simulation du coup
                     best = min(best, minimax_alpha_beta(pcopie, profondeur-1, "X",alpha,beta))
-                    alpha = min(alpha, best)
+                    beta = min(beta, best)
                     if beta <= alpha: #Coupure beta
                         break
             if beta <= alpha: #Coupure beta

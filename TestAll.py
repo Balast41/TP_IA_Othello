@@ -14,13 +14,13 @@ STRATEGIES = [
 ]
 
 # Paramètres de test
-# ⚠️  AVERTISSEMENT: Certaines combinaisons peuvent être TRÈS lentes
+#   AVERTISSEMENT: Certaines combinaisons peuvent être TRÈS lentes
 # - montecarlo vs montecarlo: EXTRÊMEMENT lent (éviter)
 # - montecarlo avec SIMU_MONTECARLO élevé: très lent
 # Recommandation: commencer avec NUM_GAMES = 1 ou 2 et PROFONDEUR = 1
-NUM_GAMES_PER_MATCHUP = 2  # Nombre de parties par affrontement
-PROFONDEUR = 6  # Profondeur pour les algorithmes (1 = très rapide, 2 = rapide, 3+ = lent)
-SIMU_MONTECARLO = 50  # Simulations pour Monte Carlo (10 = rapide, 50 = modéré, 100+ = lent)
+NUM_GAMES_PER_MATCHUP = 4  # Nombre de parties par affrontement
+PROFONDEUR = 4  # Profondeur pour les algorithmes 
+SIMU_MONTECARLO = 25  # Simulations pour Monte Carlo
 
 # Dictionaries pour stocker les résultats
 results = {}
@@ -45,8 +45,10 @@ def test_all_matchups():
     print("=" * 80)
     print(f"Nombre de parties par affrontement: {NUM_GAMES_PER_MATCHUP}")
     print(f"Stratégies testées: {', '.join(STRATEGIES)}")
-    print(f"Nombre total d'affrontements: {len(STRATEGIES) * len(STRATEGIES)}")
-    print(f"Nombre total de parties: {len(STRATEGIES) * len(STRATEGIES) * NUM_GAMES_PER_MATCHUP}")
+    # Exclure les affrontements d'une IA contre elle-même
+    total_pairings = len(STRATEGIES) * (len(STRATEGIES) - 1)
+    print(f"Nombre total d'affrontements: {total_pairings}")
+    print(f"Nombre total de parties: {total_pairings * NUM_GAMES_PER_MATCHUP}")
     print("=" * 80)
     
     total_matchups = 0
@@ -54,6 +56,9 @@ def test_all_matchups():
     # Initialiser les compteurs de résultats
     for s1 in STRATEGIES:
         for s2 in STRATEGIES:
+            if s1 == s2:
+                # Ne pas enregistrer les affrontements d'une IA contre elle-même
+                continue
             matchup_key = f"{s1}_vs_{s2}"
             results[matchup_key] = {
                 "s1_wins": 0,
@@ -65,7 +70,11 @@ def test_all_matchups():
     # Lancer tous les affrontements
     for s1 in STRATEGIES:
         for s2 in STRATEGIES:
-            # ⚠️  Éviter les combinaisons trop lentes
+            # Ignorer les affrontements d'une IA contre elle-même
+            if s1 == s2:
+                print(f"\n[⏭️  SKIPPED] {s1} vs {s2} (même IA)")
+                continue
+            #   Éviter les combinaisons trop lentes
             if (s1 == "montecarlo" and s2 == "montecarlo"):
                 print(f"\n[⏭️  SKIPPED] {s1} vs {s2} (trop lent)")
                 continue
